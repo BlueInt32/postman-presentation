@@ -1,0 +1,36 @@
+{
+	"id": "3f427a0e-576b-f38e-9310-d3e1b9235954",
+	"name": "T-API-CREATE-SUPPLIEDSOURCE",
+	"description": "",
+	"order": [
+		"8d079b95-bed2-9509-b45d-16f6535385fb"
+	],
+	"folders": [],
+	"timestamp": 1450132496427,
+	"owner": "55563",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "8d079b95-bed2-9509-b45d-16f6535385fb",
+			"headers": "Content-Type: application/json\n",
+			"url": "{{url}}/api/suppliedsources",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "3f427a0e-576b-f38e-9310-d3e1b9235954",
+			"data": [],
+			"dataMode": "raw",
+			"name": "N1 - basic creation",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1450132496427,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"ProductRefId\": 1,\n    \"Name\": \"My supplied source\"\n}"
+		}
+	]
+}
